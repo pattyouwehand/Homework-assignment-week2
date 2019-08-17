@@ -8,7 +8,8 @@ function getTatooineResidents(){
   .then(data => fetch(data.residents))
   .then(res => console.log(res.url))
   .catch(err => console.log(err))
-
+  //var array = string.split(",").map(Number);
+}
   /*The function should a return promise which resolves with an array of urls for the residents of Tatooine like : 
   [
     ${planets1.residents.map(url => `\n              "${url}"`)} \n
